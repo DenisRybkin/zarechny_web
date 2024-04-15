@@ -1,0 +1,1 @@
+export { GeoIcon } from './geo-icon.tsx'
