@@ -3,11 +3,14 @@
 @tailwind utilities;
 
 #root {
-  height: 100vh;
+  mein-height: 100vh;
   font-family: "Inter", sans-serif;
 }
 
-  @layer base {
+.flag-dropdown {
+  @apply !border-gray-800
+}
+@layer base {
     :root {
       --background: 0 0% 100%;
       --foreground: 224 71.4% 4.1%;
@@ -79,3 +82,19 @@
       @apply bg-background text-foreground;
     }
   }
+
+.main-wrapper {
+  max-width: 1440px;
+}
+
+.text-h2 {
+  @apply lg:text-2xl text-lg text-brown-t font-semibold
+}
+
+.text-h2-m {
+  @apply lg:text-2xl text-lg text-brown-t
+}
+
+.text-p {
+  @apply lg:text-xl text-base text-brown-t
+}

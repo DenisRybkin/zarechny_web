@@ -1,0 +1,4 @@
+.navigation-sidebar__background-mask {
+    backdrop-filter: blur(3px);
+    background-color: transparent;
+}

@@ -1,13 +1,57 @@
-import { RoutesKeysType } from '../../../lib/constants';
+import {
+  AnchorsKeys,
+  RoutesKeys,
+  RoutesKeysType,
+} from '../../../lib/constants';
 
 interface INavigationLink {
   route: RoutesKeysType;
   label: string;
 }
 
+// interface INavigationAnchor {
+//   route: AnchorsKeys;
+//   label: string;
+// }
+
+export interface INavigationLinksAndAnchors {
+  route: string;
+  label: string;
+}
+
+export const navigationAnchors: (INavigationLinksAndAnchors & {
+  anchor: AnchorsKeys;
+})[] = [
+  {
+    label: 'Образование',
+    route: RoutesKeys.about,
+    anchor: AnchorsKeys.education,
+  },
+  {
+    label: 'Медицина',
+    route: RoutesKeys.about,
+    anchor: AnchorsKeys.medicine,
+  },
+  {
+    label: 'Безопасность',
+    route: RoutesKeys.about,
+    anchor: AnchorsKeys.safety,
+  },
+  {
+    label: 'Спорт',
+    route: RoutesKeys.about,
+    anchor: AnchorsKeys.sport,
+  },
+  {
+    label: 'Отдых',
+    route: RoutesKeys.about,
+    anchor: AnchorsKeys.rest,
+  },
+];
+
 export const navigationLinks: INavigationLink[] = [
   {
-    route: '/',
+    route: '/about',
     label: 'О городе',
   },
   {
@@ -19,11 +63,11 @@ export const navigationLinks: INavigationLink[] = [
     label: 'Переезд',
   },
   {
-    route: '/blog',
-    label: 'Блог',
+    route: '/development-plan',
+    label: 'План развития',
   },
   {
-    route: '/contacts',
-    label: 'Контакты',
+    route: '/investors',
+    label: 'Инвесторам',
   },
 ];

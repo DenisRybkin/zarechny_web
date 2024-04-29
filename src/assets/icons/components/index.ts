@@ -1,1 +1,10 @@
-export { GeoIcon } from './geo-icon.tsx'
+export { GeoIcon } from './geo-icon.tsx';
+export { MailIcon } from './mail-icon.tsx';
+export { AddressIcon } from './address-icon.tsx';
+export { VkIcon } from './vk-icon.tsx';
+export { TelegramIcon } from './telegram-icon.tsx';
+export { ListItemIcon } from './list-item-icon.tsx';
+export { CardIcon1 } from './card-icon1.tsx';
+export { CardIcon2 } from './card-icon2.tsx';
+export { ArrowLeftIcon } from './arrow-left-icon.tsx';
+export { ArrowRightIcon } from './arrow-right-icon.tsx';

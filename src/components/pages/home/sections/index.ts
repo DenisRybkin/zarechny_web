@@ -1,0 +1,15 @@
+export { IntroSection } from './intro-section.tsx';
+export { AdvantageCarousel } from './advantage-carousel/advantage-carousel.tsx';
+export { RosatomCity } from './rosatom-city/rosatom-city.tsx';
+export { LivingComfortably } from './living-comfortably';
+export { LifeEmotions } from './life-emotions';
+export { ChildDevelopment } from './child-development';
+export { Climate } from './climate';
+export { SafeCity } from './safe-city';
+export { CloseNature } from './close-nature';
+export { Housing } from './housing';
+export { ScaleProjects } from './scale-projects';
+export { RosatomEnterprises } from './rosatom-enterprises';
+export { Map } from './map/map.tsx';
+export { Stories } from './stories';
+export { Relocate } from '../../../shared/relocate';

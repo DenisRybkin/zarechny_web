@@ -1,0 +1,10 @@
+export { Intro } from './intro.tsx';
+export { OpenZarechny } from './open-zarechny';
+export { SchoolsAndKindergartens } from './schools-and-kindergartens';
+export { GymnasiumMaximum } from './gymnasium-maximum';
+export { TalentDevelopmentCenter } from './talent-development-center';
+export { MedicalServices } from './medical-services';
+export { Safety } from './safety';
+export { SportLife } from './sport-life';
+export { Ecology } from './ecology';
+export { Rest } from './rest';
