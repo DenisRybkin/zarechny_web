@@ -19,8 +19,8 @@ export const AnchorLink = (props: IProps) => {
       navigate(props.route);
     } else {
       navigate(props.route + '#' + props.anchor);
-      event.preventDefault();
     }
+    event.preventDefault();
   };
 
   return (

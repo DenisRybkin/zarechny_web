@@ -8,7 +8,7 @@
 }
 
 .flag-dropdown {
-  @apply !border-gray-800
+  @apply !border-gray-800 !pointer-events-none
 }
 @layer base {
     :root {

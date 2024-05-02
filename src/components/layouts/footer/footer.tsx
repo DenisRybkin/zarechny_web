@@ -79,7 +79,7 @@ export const Footer = () => {
             <a href="#">
               <TelegramIcon />
             </a>
-            <a href="#">
+            <a href="https://vk.com/id857925723" className="cursor-pointer">
               <VkIcon />
             </a>
           </div>

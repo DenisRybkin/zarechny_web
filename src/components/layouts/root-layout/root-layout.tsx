@@ -9,7 +9,7 @@ interface IProps {
 
 //max-w-screen-[1440px] max-w-screen-xl
 export const RootLayout = (props: IProps) => {
-  const { hash } = useLocation();
+  const { hash, pathname } = useLocation();
 
   const handleScroll = (hash: string) => {
     const anchor = hash.split('#')[1];
@@ -21,9 +21,14 @@ export const RootLayout = (props: IProps) => {
     }
   };
 
+  const resetScroll = () => {
+    window.scrollTo(0, 0);
+  };
+
   useEffect(() => {
     if (hash) handleScroll(hash);
-  }, [hash]);
+    else resetScroll();
+  }, [hash, pathname]);
 
   return (
     <div className="flex flex-col h-full w-full bg-white relative">

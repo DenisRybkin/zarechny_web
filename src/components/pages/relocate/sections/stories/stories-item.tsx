@@ -16,14 +16,14 @@ export const StoriesItem = (props: IProps) => {
     useCarousel();
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col h-full">
       <h1 className="lg:mb-24 mb-10 flex flex-wrap font-tenor text-primary text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl">
         Истории жителей&nbsp;
         <span className="text-brown-t">Заречного</span>
       </h1>
-      <div className="lg:p-8 bg-litegray flex lg:flex-row flex-col lg:gap-5 ga-3 items-stretch">
+      <div className="lg:p-8 bg-litegray h-full flex lg:flex-row flex-col lg:gap-5 ga-3 items-stretch">
         <img className="lg:w-1/2" src={props.imageUrl} alt="Image" />
-        <div className="lg:p-0 p-4 flex flex-col justify-between">
+        <div className="lg:p-0 p-4 flex flex-col h-full justify-between">
           <div className="lg:mt-5">
             <h2 className="text-2xl text-brown-t font-semibold mb-5">
               {props.title}
@@ -32,7 +32,7 @@ export const StoriesItem = (props: IProps) => {
               {props.description}
             </p>
           </div>
-          <div className="flex items-center gap-3 self-end">
+          <div className="flex items-center gap-3 mt-auto self-end">
             {canScrollPrev && (
               <Button
                 size="icon"

@@ -12,14 +12,14 @@ export const RosatomCard = (props: IProps) => {
   return (
     <div
       className={cn(
-        'flex xl:gap-5 lg:gap-1 md:gap-10 gap-2 w-full justify-between items-stretch',
+        'flex xl:gap-5 lg:gap-1 md:gap-10 gap-2 w-full justify-between items-stretch sm:h-full h-[190px]',
         props.isReversed ? 'flex-row-reverse' : 'flex-row'
       )}
     >
       <img
         src={props.imgUrl}
-        className="w-1/3 lg:max-w-[30%] lg:max-h-[30%] object-cover"
-        alt="img"
+        className="w-1/3 lg:max-w-[30%] h-full object-cover"
+        alt="Image"
       />
       <div
         className={cn(

@@ -11,10 +11,10 @@ export const Stories = () => {
     <div className="flex flex-col px-5 lg:mb-44 mb-20">
       <div className="w-full">
         <Carousel
-          plugins={[Autoplay({ delay: 4000 })]}
+          plugins={[Autoplay({ delay: 6000 })]}
           className="w-full mt-11"
         >
-          <CarouselContent withDots className="items-start">
+          <CarouselContent withDots className="items-stretch">
             <CarouselItem>
               <StoriesItem
                 title="Вероника, домохозяйка"

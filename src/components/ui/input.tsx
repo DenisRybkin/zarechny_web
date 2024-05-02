@@ -38,6 +38,8 @@ const PhoneInput = (props: IPhoneInputProps) => {
       )}
       placeholder="+7 999 999 99 99"
       country={'ru'}
+      onlyCountries={['ru']}
+      countryCodeEditable={false}
       value={props.value}
       onChange={props.onChange}
     />

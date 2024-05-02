@@ -21,7 +21,7 @@ export const FormSchema = z
     phone: z
       .string()
       .nonempty('обязательное поле')
-      .min(12, 'минимально 12 символов'),
+      .min(11, 'минимально 11 символов'),
     comment: z.string().optional(),
     approval: z.boolean(),
   })
