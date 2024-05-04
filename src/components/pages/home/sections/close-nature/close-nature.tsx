@@ -49,7 +49,7 @@ export const CloseNature = () => {
         </div>
         <img
           className="lg:w-2/3 w-full"
-          src="/images/home/nature/1.png"
+          src="/images/home/nature/1.jpg"
           alt="Image"
         />
       </div>

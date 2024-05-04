@@ -15,24 +15,24 @@ export const Housing = () => {
         <HousingCard
           title="Доступные цены"
           description="Стоимость квадратного метра в Заречном — от 60 000 ₽, арендная плата — от 7 000 ₽."
-          imageUrl="/images/home/housing/1.png"
+          imageUrl="/images/home/housing/1.jpg"
         />
-        <img src="/images/home/housing/2.png" alt="Image" />
+        <img src="/images/home/housing/2.jpg" alt="Image" />
         <HousingCard
           title="Квартиры с ремонтом"
           description="Заезжайте и живите прямо сейчас."
-          imageUrl="/images/home/housing/3.png"
+          imageUrl="/images/home/housing/3.jpg"
         />
         <HousingCard
           title="Современные новостройки"
           description="Создавайте интерьер своей мечты."
-          imageUrl="/images/home/housing/4.png"
+          imageUrl="/images/home/housing/4.jpg"
         />
-        <img src="/images/home/housing/5.png" alt="Image" />
+        <img src="/images/home/housing/5.jpg" alt="Image" />
         <HousingCard
           title="Жилье рядом с работой"
           description="Выбирайте квартиру в любом районе города исходя из вашего бюджета."
-          imageUrl="/images/home/housing/6.png"
+          imageUrl="/images/home/housing/6.jpg"
         />
       </div>
     </div>

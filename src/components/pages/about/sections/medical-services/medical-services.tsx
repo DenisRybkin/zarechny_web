@@ -24,18 +24,18 @@ export const MedicalServices = () => {
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-2 lg:gap-5 gap-x-2 gap-y-5">
         <MedicalServicesCard
-          imageUrl="/images/about/medical-services/1.png"
+          imageUrl="/images/about/medical-services/1.jpg"
           title="Охрана материнства и детства"
           description="Современный перинатальный центр с партнерскими родами и комфортными семейными палатами по родовому сертификату."
           className="col-span-2"
         />
         <img
           className="object-cover h-full row-start-3 lg:row-start-1 lg:col-start-3 w-full"
-          src="/images/about/medical-services/2.png"
+          src="/images/about/medical-services/2.jpg"
           alt="Image"
         />
         <MedicalServicesCard
-          imageUrl="/images/about/medical-services/3.png"
+          imageUrl="/images/about/medical-services/3.jpg"
           title="Диагностика сложных случаев"
           description="Огромный спектр медицинских услуг, диагностика и лечение редчайших патологий."
           description2="Стационар и городская поликлиника оснащены необходимым оборудованием для своевременного выявления заболевания."

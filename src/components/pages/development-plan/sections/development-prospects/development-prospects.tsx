@@ -20,7 +20,7 @@ export const DevelopmentProspects = () => {
         />
         <img
           className="object-cover w-full h-full"
-          src="/images/development-plan/development-prospects/1.png"
+          src="/images/development-plan/development-prospects/1.jpg"
           alt="Image"
         />
         <DevelopmentProspectsCard
@@ -31,7 +31,7 @@ export const DevelopmentProspects = () => {
         />
         <img
           className="object-cover w-full h-full"
-          src="/images/development-plan/development-prospects/2.png"
+          src="/images/development-plan/development-prospects/2.jpg"
           alt="Image"
         />
         <DevelopmentProspectsCard
@@ -42,12 +42,12 @@ export const DevelopmentProspects = () => {
         />
         <img
           className="object-cover w-full h-full"
-          src="/images/development-plan/development-prospects/3.png"
+          src="/images/development-plan/development-prospects/3.jpg"
           alt="Image"
         />
         <img
           className="object-cover w-full h-full col-span-2"
-          src="/images/development-plan/development-prospects/4.png"
+          src="/images/development-plan/development-prospects/4.jpg"
           alt="Image"
         />
         <DevelopmentProspectsCard

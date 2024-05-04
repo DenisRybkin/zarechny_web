@@ -83,7 +83,7 @@ export const Header = () => {
   return (
     <>
       <MobileSidebar isOpen={isOpenDrawer} onClose={handleCloseDrawer} />
-      <nav className="main-wrapper flex w-full px-4 justify-between items-center m-auto">
+      <nav className="main-wrapper sticky top-0 z-20 bg-white flex w-full px-4 justify-between items-center m-auto">
         <img
           onClick={onClickLogo}
           src="/logo.svg"

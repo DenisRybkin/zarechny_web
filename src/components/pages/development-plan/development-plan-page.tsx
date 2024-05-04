@@ -9,7 +9,7 @@ export const DevelopmentPlanPage = () => {
       <DevelopmentProspects />
       <Relocate
         title="Хотите узнать подробнее?"
-        imageUrl="/images/form/2.png"
+        imageUrl="/images/form/2.jpg"
       />
     </div>
   );

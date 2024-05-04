@@ -37,7 +37,7 @@ export const TalentDevelopmentCenter = () => {
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
         <TalentDevelopmentCenterCard
-          imageUrl="/images/about/talent-development-center/1.png"
+          imageUrl="/images/about/talent-development-center/1.jpg"
           title="Спорт"
           items={[
             'Футбол',
@@ -56,11 +56,11 @@ export const TalentDevelopmentCenter = () => {
         />
         <img
           className="h-full object-cover"
-          src="/images/about/talent-development-center/2.png"
+          src="/images/about/talent-development-center/2.jpg"
           alt="Image"
         />
         <TalentDevelopmentCenterCard
-          imageUrl="/images/about/talent-development-center/3.png"
+          imageUrl="/images/about/talent-development-center/3.jpg"
           title="Интеллект"
           items={[
             'Шахматная школа',
@@ -75,7 +75,7 @@ export const TalentDevelopmentCenter = () => {
           titleMt
         />
         <TalentDevelopmentCenterCard
-          imageUrl="/images/about/talent-development-center/4.png"
+          imageUrl="/images/about/talent-development-center/4.jpg"
           title="Творчество"
           items={[
             'Художественная школа',

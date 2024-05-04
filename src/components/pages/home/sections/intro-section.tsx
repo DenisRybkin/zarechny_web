@@ -18,7 +18,7 @@ export const IntroSection = () => {
         </div>
       </div>
       <ImageDescription
-        imageUrl="/images/home/1.png"
+        imageUrl="/images/home/1.jpg"
         descriptions={[
           'Благоприятная экология',
           'Безопасность',

@@ -12,12 +12,12 @@ export const OpenZarechny = () => {
         <OpenZarechnyCard
           title="Уютный город с возможностями мегаполиса"
           description="Представьте уютные зеленые улицы, где нет пробок и густонаселенных 'муравейников'. Вы не тратите время на дорогу, потому что все рядом."
-          imageUrl="/images/about/open-zarechny/1.png"
+          imageUrl="/images/about/open-zarechny/1.jpg"
         />
         <OpenZarechnyCard
           title="Забота о самом главном"
           description="Вам не страшно отпустить детей на прогулку, потому что в городе «все свои». Живите и работайте в комфортном темпе."
-          imageUrl="/images/about/open-zarechny/2.png"
+          imageUrl="/images/about/open-zarechny/2.jpg"
           isReverse
         />
       </div>

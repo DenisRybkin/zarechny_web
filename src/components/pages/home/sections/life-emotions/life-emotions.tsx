@@ -38,7 +38,7 @@ export const LifeEmotions = () => {
         </div>
         <div className="xl:w-1/2">
           <img
-            src="/images/home/life-emotions/1.png"
+            src="/images/home/life-emotions/1.jpg"
             className="w-full h-full object-cover"
             alt="Image"
           />
@@ -49,12 +49,12 @@ export const LifeEmotions = () => {
           title="Занимайтесь спортом"
           description="Выбирайте спорт по душе: плавание, теннис, лыжные гонки, или что-то другое."
           reverse
-          imageUrl="/images/home/life-emotions/2.png"
+          imageUrl="/images/home/life-emotions/2.jpg"
         />
         <LifeEmotionsCard
           title="Получайте новые впечатления"
           description="Приходите на спектакли Театра юного зрителя и фестивали «Театра наций»"
-          imageUrl="/images/home/life-emotions/3.png"
+          imageUrl="/images/home/life-emotions/3.jpg"
         />
       </div>
     </div>

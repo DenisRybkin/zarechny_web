@@ -12,7 +12,7 @@ export const Intro = () => {
           Работа найдется для каждого
         </h2>
       </div>
-      <img src="/images/job/1.png" alt="Image" />
+      <img src="/images/job/1.jpg" alt="Image" />
     </div>
   );
 };

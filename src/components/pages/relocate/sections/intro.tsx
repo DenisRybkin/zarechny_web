@@ -12,7 +12,7 @@ export const Intro = () => {
         </h2>
       </div>
       <ImageDescription
-        imageUrl="/images/relocate/1.png"
+        imageUrl="/images/relocate/1.jpg"
         descriptions={[
           ['5 минут', 'Время от дома до спортзала'],
           ['0 баллов', 'Пробки в час пик'],

@@ -11,7 +11,7 @@ export const Intro = () => {
           и яркое детство!
         </h2>
       </div>
-      <img src="/images/about/1.png" alt="Image" />
+      <img src="/images/about/1.jpg" alt="Image" />
     </div>
   );
 };

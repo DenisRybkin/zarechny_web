@@ -11,13 +11,13 @@ export const RosatomCity = () => {
           <RosatomCard
             title="Предприятия Росатома"
             description="Участие в федеральных проектах и высокая зарплата."
-            imgUrl="/images/home/rosatom/1.png"
+            imgUrl="/images/home/rosatom/1.jpg"
             bgClassname="bg-litegray"
           />
           <RosatomCard
             title="Мощные социальные программы"
             description="Финансирование проекта «Бережливая поликлиника», конкурсов для детей, и ЗОЖ-проектов."
-            imgUrl="/images/home/rosatom/4.png"
+            imgUrl="/images/home/rosatom/4.jpg"
             bgClassname="bg-primary"
           />
         </div>
@@ -25,14 +25,14 @@ export const RosatomCity = () => {
           <RosatomCard
             title="Медицина под контролем Росатома"
             description="МСЧ № 59 в Заречном финансируется из федерального бюджета."
-            imgUrl="/images/home/rosatom/2.png"
+            imgUrl="/images/home/rosatom/2.jpg"
             isReversed
             bgClassname="bg-secondary"
           />
           <RosatomCard
             title="Территория культуры"
             description="Спонсирование выставок, творческих мастерских, выступлений артистов с мировым именем, поддержка талантов."
-            imgUrl="/images/home/rosatom/5.png"
+            imgUrl="/images/home/rosatom/5.jpg"
             bgClassname="bg-litegray"
             isReversed
           />
@@ -41,13 +41,13 @@ export const RosatomCity = () => {
           <RosatomCard
             title="Школа Росатома"
             description="Работа атомных классов в школах Заречного. Обучение педагогов за рубежом."
-            imgUrl="/images/home/rosatom/3.png"
+            imgUrl="/images/home/rosatom/3.jpg"
             bgClassname="bg-litegray"
           />
           <RosatomCard
             title="Гранты для важных дел"
             description="Конкурсы для физических лиц, НКО, бюджетных организаций и бизнеса."
-            imgUrl="/images/home/rosatom/6.png"
+            imgUrl="/images/home/rosatom/6.jpg"
             bgClassname="bg-brown"
           />
         </div>

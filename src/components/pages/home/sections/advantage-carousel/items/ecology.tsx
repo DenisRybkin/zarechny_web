@@ -21,7 +21,7 @@ export const Ecology = () => {
         <div className="w-full">
           <img
             className="w-full h-full object-cover min-h-[130px]"
-            src="/images/home/slider/ecology.png"
+            src="/images/home/slider/ecology.jpg"
             alt="Image"
           />
         </div>

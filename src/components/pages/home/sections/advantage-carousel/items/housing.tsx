@@ -32,7 +32,7 @@ export const Housing = () => {
         <div className="w-full">
           <img
             className="w-full h-full object-cover min-h-[130px]"
-            src="/images/home/slider/home.png"
+            src="/images/home/slider/home.jpg"
             alt="Image"
           />
         </div>

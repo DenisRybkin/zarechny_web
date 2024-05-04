@@ -18,8 +18,8 @@ export const ResidentReceives = () => {
             завершения камеральной проверки.
           </p>
         </div>
-        <img src="/images/for-investors/resident-recevies/1.png" alt="Image" />
-        <img src="/images/for-investors/resident-recevies/2.png" alt="Image" />
+        <img src="/images/for-investors/resident-recevies/1.jpg" alt="Image" />
+        <img src="/images/for-investors/resident-recevies/2.jpg" alt="Image" />
         <div className="flex flex-col gap-5 justify-center">
           <h2 className="text-2xl text-brown-t font-semibold lg:w-2/3">
             Тарифы страховых взносов
@@ -66,7 +66,7 @@ export const ResidentReceives = () => {
             </div>
           </div>
         </div>
-        <img src="/images/for-investors/resident-recevies/3.png" alt="Image" />
+        <img src="/images/for-investors/resident-recevies/3.jpg" alt="Image" />
       </div>
     </div>
   );

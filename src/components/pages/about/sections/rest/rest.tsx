@@ -11,36 +11,36 @@ export const Rest = () => {
       </div>
       <div className="grid lg:grid-cols-4 grid-cols-2 gap-5">
         <RestCard
-          imageUrl="/images/about/rest/1.png"
+          imageUrl="/images/about/rest/1.jpg"
           description="Центральный парк"
         />
         <RestCard
-          imageUrl="/images/about/rest/2.png"
+          imageUrl="/images/about/rest/2.jpg"
           description="Лыжная трасса"
         />
         <RestCard
-          imageUrl="/images/about/rest/3.png"
+          imageUrl="/images/about/rest/3.jpg"
           description="Зона отдыха с каскадом прудов"
           className="col-span-2"
         />
         <RestCard
-          imageUrl="/images/about/rest/4.png"
+          imageUrl="/images/about/rest/4.jpg"
           description="Лермонтовский пруд и парк"
           className="col-span-2"
         />
-        <RestCard imageUrl="/images/about/rest/5.png" description="Боулинг" />
+        <RestCard imageUrl="/images/about/rest/5.jpg" description="Боулинг" />
         <RestCard
-          imageUrl="/images/about/rest/6.png"
+          imageUrl="/images/about/rest/6.jpg"
           description="Театр юного зрителя"
         />
-        <RestCard imageUrl="/images/about/rest/7.png" description="Бильярд" />
+        <RestCard imageUrl="/images/about/rest/7.jpg" description="Бильярд" />
         <RestCard
-          imageUrl="/images/about/rest/8.png"
+          imageUrl="/images/about/rest/8.jpg"
           description="Виртуальная реальность"
           className="col-span-2"
         />
         <RestCard
-          imageUrl="/images/about/rest/9.png"
+          imageUrl="/images/about/rest/9.jpg"
           className="row-start-5 lg:row-start-3 lg:col-start-4"
           description="Кинотеатр"
         />

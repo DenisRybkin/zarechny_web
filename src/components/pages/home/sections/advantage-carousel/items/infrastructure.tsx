@@ -21,7 +21,7 @@ export const Infrastructure = () => {
         <div className="w-full">
           <img
             className="w-full h-full object-cover min-h-[130px]"
-            src="/images/home/slider/infrastructure.png"
+            src="/images/home/slider/infrastructure.jpg"
             alt="Image"
           />
         </div>

@@ -55,7 +55,7 @@ export const navigationConditions: {
       const navigate = useNavigate();
 
       return (
-        <NavigationMenu>
+        <NavigationMenu key="NavigationMenu">
           <NavigationMenuList>
             <NavigationMenuItem>
               <NavigationMenuTrigger

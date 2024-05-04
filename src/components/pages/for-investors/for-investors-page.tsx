@@ -7,7 +7,7 @@ export const ForInvestorsPage = () => {
       <Intro />
       <Preferences />
       <ResidentReceives />
-      <Relocate title="Хотите узнать больше?" imageUrl="/images/form/1.png" />
+      <Relocate title="Хотите узнать больше?" imageUrl="/images/form/1.jpg" />
     </div>
   );
 };

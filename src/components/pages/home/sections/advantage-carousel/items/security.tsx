@@ -19,7 +19,7 @@ export const Security = () => {
         <div className="w-full">
           <img
             className="w-full object-cover min-h-[130px]"
-            src="/images/home/slider/security.png"
+            src="/images/home/slider/security.jpg"
             alt="Image"
           />
         </div>

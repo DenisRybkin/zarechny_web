@@ -12,7 +12,7 @@ export const Intro = () => {
           Присоединяйтесь к списку резидентов ТОСЭР «Заречный»
         </h2>
       </div>
-      <img src="/images/for-investors/1.png" alt="Image" />
+      <img src="/images/for-investors/1.jpg" alt="Image" />
     </div>
   );
 };

@@ -26,9 +26,9 @@ export const GymnasiumMaximum = () => {
             ]}
           />
         </div>
-        <img src="/images/about/gymnasium-maximum/1.png" alt="Image" />
+        <img src="/images/about/gymnasium-maximum/1.jpg" alt="Image" />
         <GymnasiumMaximumCard
-          imageUrl="/images/about/gymnasium-maximum/2.png"
+          imageUrl="/images/about/gymnasium-maximum/2.jpg"
           title="Всестороннее развитие личности ребенка"
           items={[
             'китайский язык',
@@ -41,7 +41,7 @@ export const GymnasiumMaximum = () => {
           ]}
         />
         <GymnasiumMaximumCard
-          imageUrl="/images/about/gymnasium-maximum/3.png"
+          imageUrl="/images/about/gymnasium-maximum/3.jpg"
           title="Безопасная среда для развития талантов"
           items={[
             'вход по карте гимназиста',
@@ -49,9 +49,9 @@ export const GymnasiumMaximum = () => {
             'видеонаблюдение по периметру и в помещениях школы',
           ]}
         />
-        <img src="/images/about/gymnasium-maximum/4.png" alt="Image" />
+        <img src="/images/about/gymnasium-maximum/4.jpg" alt="Image" />
         <GymnasiumMaximumCard
-          imageUrl="/images/about/gymnasium-maximum/5.png"
+          imageUrl="/images/about/gymnasium-maximum/5.jpg"
           title="Современные образовательные технологии"
           items={[
             'интерактивные панели',

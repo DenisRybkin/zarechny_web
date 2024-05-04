@@ -22,24 +22,24 @@ export const ChildDevelopment = () => {
             subTitle="развивающих секций"
             description="Растим творческих людей: в городе есть художественная и музыкальная школы и студия вокала."
           />
-          <img src="/images/home/child-development/4.png" alt="image" />
+          <img src="/images/home/child-development/4.jpg" alt="image" />
 
           <ChildDevelopmentCard
             title="15"
             subTitle="творческих секций"
             description="Развиваем интеллект: шахматная школа, курсы программирования и многое другое."
           />
-          <img src="/images/home/child-development/1.png" alt="Image" />
-          <img src="/images/home/child-development/2.png" alt="image" />
+          <img src="/images/home/child-development/1.jpg" alt="Image" />
+          <img src="/images/home/child-development/2.jpg" alt="image" />
           <ChildDevelopmentCard
             title="12"
             subTitle="спортивных секций"
             className="row-start-"
             description="Зажигаем спортивные звезды в боксе карате, фигурном катании, футболе, хоккее."
           />
-          <img src="/images/home/child-development/3.png" alt="Image" />
+          <img src="/images/home/child-development/3.jpg" alt="Image" />
           <img
-            src="/images/home/child-development/5.png"
+            src="/images/home/child-development/5.jpg"
             className="md:col-span-2 xl:h-[426px] md:h-[86%] h-full w-full object-cover xl:w-full"
             alt="Image"
           />

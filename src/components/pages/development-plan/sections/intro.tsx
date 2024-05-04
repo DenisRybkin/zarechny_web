@@ -10,7 +10,7 @@ export const Intro = () => {
           Переезжайте в Заречный, чтобы стать участником грандиозных изменений.
         </h2>
       </div>
-      <img src="/images/development-plan/1.png" alt="Image" />
+      <img src="/images/development-plan/1.jpg" alt="Image" />
     </div>
   );
 };

@@ -15,7 +15,7 @@ export const Relocate = (props: IProps) => {
     >
       <img
         className="lg:w-[40%]"
-        src={props.imageUrl ?? '/images/home/relocate-form/1.png'}
+        src={props.imageUrl ?? '/images/home/relocate-form/1.jpg'}
         alt="Image"
       />
       <div className="flex flex-col md:mb-20 mb-8 gap-5">

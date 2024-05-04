@@ -15,18 +15,18 @@ export const Ecology = () => {
       </div>
       <div className="w-full flex flex-col gap-5">
         <EcologyCard
-          imageUrl="/images/about/ecology/1.png"
+          imageUrl="/images/about/ecology/1.jpg"
           title="Естественный сафари-парк"
           description="Возможность понаблюдать за лосями, лисами, белками в их природной среде обитания."
           isReverse
         />
         <EcologyCard
-          imageUrl="/images/about/ecology/2.png"
+          imageUrl="/images/about/ecology/2.jpg"
           title="Артезианская скважина"
           description="Вода в городе своя: есть артезианская скважина, пить можно прямо из-под крана."
         />
         <EcologyCard
-          imageUrl="/images/about/ecology/3.png"
+          imageUrl="/images/about/ecology/3.jpg"
           title="Чистый воздух"
           description="Высокие показатели чистоты воздуха в городе даже рядом с предприятиями."
           isReverse

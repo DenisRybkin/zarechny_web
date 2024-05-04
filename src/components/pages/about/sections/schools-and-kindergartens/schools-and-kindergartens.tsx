@@ -17,17 +17,17 @@ export const SchoolsAndKindergartens = () => {
             title="12"
             subTitle="школ"
             description="Поступайте без очередей и длительного ожидания. Школы Росатома попали в рейтинг лучших по России. Для детей открыты атомные классы и технопарк «Кванториум»."
-            imageUrl="/images/about/schools-and-kindergartens/1.png"
+            imageUrl="/images/about/schools-and-kindergartens/1.jpg"
           />
         </div>
-        <img src="/images/about/schools-and-kindergartens/2.png" alt="Image" />
-        <img src="/images/about/schools-and-kindergartens/3.png" alt="Image" />
+        <img src="/images/about/schools-and-kindergartens/2.jpg" alt="Image" />
+        <img src="/images/about/schools-and-kindergartens/3.jpg" alt="Image" />
         <div className="col-span-2">
           <SchoolsAndKindergartensCard
             title="13"
             subTitle="детских садов"
             description="Педагоги дошкольных учреждений проходят международные курсы повышения квалификации в Сингапуре."
-            imageUrl="/images/about/schools-and-kindergartens/4.png"
+            imageUrl="/images/about/schools-and-kindergartens/4.jpg"
             isCenter
           />
         </div>

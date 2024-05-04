@@ -67,7 +67,7 @@ export const Preferences = () => {
           </div>
           <img
             className="lg:w-2/3 object-cover"
-            src="/images/for-investors/preferences/1.png"
+            src="/images/for-investors/preferences/1.jpg"
             alt="Image"
           />
         </div>

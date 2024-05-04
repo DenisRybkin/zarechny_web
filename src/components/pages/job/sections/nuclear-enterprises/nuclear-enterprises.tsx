@@ -10,12 +10,12 @@ export const NuclearEnterprises = () => {
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
         <NuclearEnterpriseCard
-          imageUrl="/images/job/nuclear-enterprises/1.png"
+          imageUrl="/images/job/nuclear-enterprises/1.jpg"
           title="АО «ФНПЦ «ПО «Старт» им. М.В. Проценко»"
           description="Старт — крупный научно-производственный центр, обладающий уникальными технологиями в области высокоточной механообработки, электромеханики, микроэлектроники, мощной испытательной базой."
         />
         <NuclearEnterpriseCard
-          imageUrl="/images/job/nuclear-enterprises/2.png"
+          imageUrl="/images/job/nuclear-enterprises/2.jpg"
           title="АО «НИИграфит»"
           description="«НИИграфит» создан для всестороннего изучения и разработки специальных видов углеродных материалов и изделий из них, внедрения их в серийное производство, координации научно-исследовательских и проектно-конструкторских работ."
         />

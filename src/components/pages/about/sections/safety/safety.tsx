@@ -16,7 +16,7 @@ export const Safety = () => {
           </h2>
         </div>
         <img
-          src="/images/about/safety/1.png"
+          src="/images/about/safety/1.jpg"
           className="h-full object-cover"
           alt="Image"
         />
@@ -26,7 +26,7 @@ export const Safety = () => {
           </h2>
         </div>
         <img
-          src="/images/about/safety/2.png"
+          src="/images/about/safety/2.jpg"
           className="h-full object-cover"
           alt="Image"
         />
@@ -41,7 +41,7 @@ export const Safety = () => {
           </h2>
         </div>
         <img
-          src="/images/about/safety/3.png"
+          src="/images/about/safety/3.jpg"
           className="object-cover"
           alt="Image"
         />
@@ -51,7 +51,7 @@ export const Safety = () => {
           </h2>
         </div>
         <img
-          src="/images/about/safety/4.png"
+          src="/images/about/safety/4.jpg"
           className="object-cover row-start-5 lg:row-start-3 lg:col-end-5"
           alt="Image"
         />

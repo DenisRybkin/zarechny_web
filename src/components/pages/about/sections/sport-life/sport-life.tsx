@@ -12,16 +12,16 @@ export const SportLife = () => {
       </div>
       <div className="grid lg:grid-cols-2 grid-cols-1 gap-5">
         <SportLifeCard
-          imageUrl="/images/about/sport-life/1.png"
+          imageUrl="/images/about/sport-life/1.jpg"
           items={['Большой теннис', 'Баскетбол', 'Футбол']}
         />
         <img
           className="object-cover"
-          src="/images/about/sport-life/2.png"
+          src="/images/about/sport-life/2.jpg"
           alt="Image"
         />
         <SportLifeCard
-          imageUrl="/images/about/sport-life/3.png"
+          imageUrl="/images/about/sport-life/3.jpg"
           items={[
             'Танцевальные студии по разным направлениям',
             'Зона единоборств',
@@ -30,17 +30,17 @@ export const SportLife = () => {
           isReverse
         />
         <SportLifeCard
-          imageUrl="/images/about/sport-life/4.png"
+          imageUrl="/images/about/sport-life/4.jpg"
           items={['Тренажерный зал', 'Йога', 'Воркаут в каждом дворе']}
           isReverse
         />
         <SportLifeCard
-          imageUrl="/images/about/sport-life/5.png"
+          imageUrl="/images/about/sport-life/5.jpg"
           items={['Бассейн', 'Каток', 'Хоккей']}
         />
         <img
           className="object-cover"
-          src="/images/about/sport-life/6.png"
+          src="/images/about/sport-life/6.jpg"
           alt="Image"
         />
       </div>

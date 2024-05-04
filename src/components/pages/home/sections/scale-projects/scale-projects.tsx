@@ -12,22 +12,22 @@ export const ScaleProjects = () => {
           <h3 className="text-brown-t lg:text-2xl text-xl">
             Работайте на предприятиях федерального значения
           </h3>
-          <img src="/images/home/scale-projects/1.png" alt="Image" />
+          <img src="/images/home/scale-projects/1.jpg" alt="Image" />
         </div>
         <div className="flex flex-col lg:w-1/3 gap-7">
-          <img src="/images/home/scale-projects/2.png" alt="Image" />
+          <img src="/images/home/scale-projects/2.jpg" alt="Image" />
           <p className="text-brown-t text-xl">
             Получите бронь от мобилизации и военной службы
           </p>
         </div>
         <div className="flex flex-col justify-between lg:w-1/3 gap-7">
           <div className="flex flex-col gap-7">
-            <img src="/images/home/scale-projects/3.png" alt="Image" />
+            <img src="/images/home/scale-projects/3.jpg" alt="Image" />
             <h3 className="text-brown-t text-xl">
               Поменяйте профессию или продолжайте развиваться в своей сфере
             </h3>
           </div>
-          <img src="/images/home/scale-projects/4.png" alt="Image" />
+          <img src="/images/home/scale-projects/4.jpg" alt="Image" />
         </div>
       </div>
     </div>

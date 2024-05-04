@@ -35,12 +35,12 @@ export const SmartNeighborhood = () => {
           </h2>
           <img
             className="object-cover h-full"
-            src="/images/development-plan/smart-neighborhood/1.png"
+            src="/images/development-plan/smart-neighborhood/1.jpg"
             alt="Image"
           />
           <img
             className="object-cover lg:col-span-1 col-span-2"
-            src="/images/development-plan/smart-neighborhood/2.png"
+            src="/images/development-plan/smart-neighborhood/2.jpg"
             alt="Image"
           />
           <SmartNeighborhoodList

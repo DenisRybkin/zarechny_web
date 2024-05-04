@@ -112,7 +112,7 @@ export const Stories = (props: PropType) => {
             <div className="embla__slide " key={index}>
               <img
                 className={cn('w-[400px] h-[300px] object-cover')}
-                src={`/images/home/gallery/${index + 1}.png`}
+                src={`/images/home/gallery/${index + 1}.jpg`}
                 alt="Image"
               />
             </div>
