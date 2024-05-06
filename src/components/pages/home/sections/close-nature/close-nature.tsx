@@ -2,15 +2,14 @@ export const CloseNature = () => {
   return (
     <div className="flex flex-col px-5 lg:mb-44 mb-20">
       <div className="flex flex-col md:mb-16 mb-8">
-        <h1 className="font-tenor text-secondary text-left lg:text-6xl md:text-5xl sm:text-4xl lg: text-4xl">
+        <h1 className="font-tenor text-brown-t text-left lg:text-6xl md:text-5xl sm:text-4xl lg: text-4xl">
           Город для тех, кто хочет
         </h1>
-        <h1 className="font-tenor text-right lg:text-6xl md:text-5xl sm:text-4xl text-4xl md-5">
+        <h1 className="font-tenor text-secondary text-right lg:text-6xl md:text-5xl sm:text-4xl text-4xl md-5">
           быть ближе к природе
         </h1>
         <h2 className="lg:text-2xl text-lg text-left font-medium lg:mb-5 md:w-1/2 mt-5 text-secondary">
-          Бесплатные кружки и секции рядом с домом. Подарите ребенку безопасное
-          и яркое детство!
+          Квартиры с видом на лес и озеро, зеленые зоны на каждой улице.
         </h2>
       </div>
       <div className="w-full flex lg:flex-row flex-col items-stretch lg:gap-5 gap-3">

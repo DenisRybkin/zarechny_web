@@ -26,7 +26,7 @@ export const LifeEmotionsCard = (props: IProps) => {
         <h2 className="sm:text-2xl text-xl font-semibold mb-5 text-brown-t">
           {props.title}
         </h2>
-        <p className="sm:text-lg lg:text-base md:text-xl text-sm text-brown-t">
+        <p className="sm:text-lg lg:text-чд md:text-xl text-sm text-brown-t">
           {props.description}
         </p>
       </div>

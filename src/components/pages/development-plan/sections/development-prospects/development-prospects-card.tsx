@@ -25,7 +25,7 @@ export const DevelopmentProspectsCard = (props: IProps) => {
       >
         {props.title}
       </h2>
-      <p className={cn(props.classNameText, 'lg:text-xl text-base break-all')}>
+      <p className={cn(props.classNameText, 'lg:text-xl text-base ')}>
         {props.description}
       </p>
     </div>

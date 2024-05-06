@@ -7,7 +7,7 @@ export const SchoolsAndKindergartens = () => {
         <h1 className="flex flex-wrap font-tenor text-primary text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl">
           Школы и детские сады близко
         </h1>
-        <h2 className="text-h2 text-brown-t lg:mt-5 mt-2">
+        <h2 className="text-h2 font-medium self-end text-brown-t text-left lg:w-[40%] lg:mt-5 mt-2">
           Выбирайте частное или муниципальное образовательное учреждение.
         </h2>
       </div>

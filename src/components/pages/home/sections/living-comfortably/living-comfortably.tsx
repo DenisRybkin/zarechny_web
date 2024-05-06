@@ -56,7 +56,7 @@ export const LivingComfortably = () => {
         />
         <LivingComfortablyCard
           title="Доступное жилье"
-          description="Средняя стоимость кв.метра 65 000 руб."
+          description="Средняя стоимость кв.метра 65&nbsp;000 руб."
           bgClassName="bg-litegray"
         />
         <LivingComfortablyCard

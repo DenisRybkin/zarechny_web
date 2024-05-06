@@ -10,7 +10,7 @@ export const RelocateOptions = () => {
         <h1 className="sm:block hidden font-tenor text-brown-t text-left lg:text-6xl md:text-5xl sm:text-4xl lg: text-4xl">
           Есть несколько вариантов
         </h1>
-        <h1 className="sm:block hidden font-tenor text-right lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-brown-t">
+        <h1 className="sm:block hidden font-tenor text-right lg:text-6xl md:text-5xl sm:text-4xl text-4xl xl:w-[86%] text-brown-t">
           для переезда
         </h1>
         <h2 className="lg:text-2xl text-lg text-primary lg:w-1/2 lg:mt-10 mt-2 text-left">
@@ -31,7 +31,7 @@ export const RelocateOptions = () => {
             Купить квартиру в Заречном.
           </p>
         </div>
-        <div className="flex flex-col lg:p-5 p-2 bg-brown relative">
+        <div className="flex flex-col lg:p-5 p-2 bg-brown relative sm:h-20">
           <p className="text-white lg:text-xl text-lg">
             Открыть бизнес или запустить свой стартап.
           </p>

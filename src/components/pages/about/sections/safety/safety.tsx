@@ -37,7 +37,7 @@ export const Safety = () => {
         </div>
         <div className="p-5 bg-primary col-span-2 lg:h-64">
           <h2 className="lg:text-2xl text-lg text-white">
-            Спокойное движение: скоростной режим в городе ограничен до 40 км/час
+            Охраняемые контрольно-пропускные пункты
           </h2>
         </div>
         <img
