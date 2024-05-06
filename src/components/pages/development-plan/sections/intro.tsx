@@ -6,7 +6,7 @@ export const Intro = () => {
           Жизнь города&nbsp;
           <span className="text-primary">в будущем</span>
         </h1>
-        <h2 className="lg:text-2xl text-xl md:w-1/2 lg:w-1/3 self-end text-right font-medium mb-5 mt-5 text-brown-t">
+        <h2 className="lg:text-2xl text-xl md:w-1/2 lg:w-[35%] self-end text-left font-medium mb-5 mt-5 text-brown-t">
           Переезжайте в Заречный, чтобы стать участником грандиозных изменений.
         </h2>
       </div>

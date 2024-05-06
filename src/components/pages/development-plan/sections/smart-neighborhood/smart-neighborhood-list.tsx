@@ -12,7 +12,7 @@ export const SmartNeighborhoodList = (props: IProps) => {
   return (
     <div
       className={cn(
-        'flex flex-col lg:gap-5 gap-3 lg:col-span-1 col-span-2',
+        'flex flex-col  lg:col-span-1 col-span-2',
         props.isReverse && 'justify-end'
       )}
     >
@@ -24,11 +24,11 @@ export const SmartNeighborhoodList = (props: IProps) => {
       >
         {props.title}
       </h2>
-      <div className="flex flex-col lg:w-2/3 lg:gap-5 gap-1">
+      <div className="flex flex-col lg:w-3/4 lg:gap-5 gap-1">
         {props.items.map((item, index) => (
           <div key={index} className="flex flex-row items-start gap-3">
             <div className="">
-              <ListItemIcon />
+              <ListItemIcon color="#557028" />
             </div>
             <p className="lg:text-xl text-base text-left text-wrap">{item}</p>
           </div>

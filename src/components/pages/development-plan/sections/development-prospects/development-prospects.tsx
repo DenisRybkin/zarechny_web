@@ -24,10 +24,11 @@ export const DevelopmentProspects = () => {
           alt="Image"
         />
         <DevelopmentProspectsCard
-          title="Организация образования по системе “Ступени”"
+          title=""
           description="Получение статуса территории опережающего социально-экономического развития и налоговых льгот на прибыль, имущество и землю. Квота на минимальное количество грантов для резидентов ТОСЭР."
           classNameText="text-white"
           className="bg-primary md:col-span-1 col-span-2"
+          isReverse
         />
         <img
           className="object-cover w-full h-full"

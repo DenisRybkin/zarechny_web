@@ -9,8 +9,8 @@ export const LifeEmotions = () => {
       </h1>
       <div className="flex lg:flex-row flex-col items-stretch w-full gap-5">
         <div className="lg:w-1/2 flex flex-col sm:flex-row lg:flex-col justify-between xl:gap-0 sm:gap-5 gap-3">
-          <div className="flex flex-col lg:pb-5 gap-5">
-            <div className="flex flex-col h-full lg:w-1/2 xs:justify-start justify-between">
+          <div className="flex flex-col lg:pb-5 gap-5 w-1/2">
+            <div className="flex flex-col h-full xs:justify-start justify-between">
               <h2 className="text-2xl font-semibold mb-5 text-brown-t">
                 Отдыхайте на природе
               </h2>

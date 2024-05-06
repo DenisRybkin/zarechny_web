@@ -33,6 +33,7 @@ export const Housing = () => {
           title="Жилье рядом с работой"
           description="Выбирайте квартиру в любом районе города исходя из вашего бюджета."
           imageUrl="/images/home/housing/6.jpg"
+          isReverse
         />
       </div>
     </div>

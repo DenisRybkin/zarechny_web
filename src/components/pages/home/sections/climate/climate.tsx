@@ -13,18 +13,18 @@ export const Climate = () => {
       </div>
       <div className="w-full grid lg:grid-cols-2 grid-cols-1 gap-5">
         <ClimateCard
-          imageUrl="/images/home/climate/1.png"
+          imageUrl="/images/home/climate/1.jpg"
           title="Четкое разделение на сезоны"
           description="Снежная, но мягкая зима, солнечное лето, золотая осень. Отсутствие природных катаклизмов."
         />
-        <img src="/images/home/climate/2.png" alt="Image" />
+        <img src="/images/home/climate/2.jpg" alt="Image" />
         <ClimateCard
-          imageUrl="/images/home/climate/3.png"
+          imageUrl="/images/home/climate/3.jpg"
           title="Четкое разделение на сезоны"
           description="Снежная, но мягкая зима, солнечное лето, золотая осень. Отсутствие природных катаклизмов."
         />
         <ClimateCard
-          imageUrl="/images/home/climate/4.png"
+          imageUrl="/images/home/climate/4.jpg"
           title="Четкое разделение на сезоны"
           description="Снежная, но мягкая зима, солнечное лето, золотая осень. Отсутствие природных катаклизмов."
           isReversed

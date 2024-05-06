@@ -12,11 +12,18 @@ interface IProps {
 
 export const MedicalServicesCard = (props: IProps) => {
   return (
-    <div className={cn('flex items-stretch lg:gap-5 gap-2', props.className)}>
+    <div
+      className={cn(
+        'flex items-stretch lg:gap-5 gap-2',
+        props.isReverse && 'flex-row-reverse',
+        props.className
+      )}
+    >
       <img className="w-[48%] object-cover" src={props.imageUrl} alt="Image" />
       <div
         className={cn(
-          'flex flex-col xl:justify-start justify-center items-center xl:items-start'
+          'flex flex-col h-full xl:justify-start justify-center items-center xl:items-start',
+          props.isTextReverse && 'xl:justify-end'
         )}
       >
         <h2 className="lg:text-2xl text-xl text-left font-semibold lg:mb-5 mb-2 text-brown-t">

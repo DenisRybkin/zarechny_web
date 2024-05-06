@@ -7,7 +7,7 @@ export const Intro = () => {
         <h1 className="font-tenor text-brown-t text-left lg:text-6xl md:text-5xl sm:text-4xl lg: text-4xl">
           Как переехать в Заречный?
         </h1>
-        <h2 className="lg:text-2xl text-lg text-primary text-right font-medium mb-5 mt-5">
+        <h2 className="lg:text-2xl text-lg lg:w-[35%] self-end text-left text-primary font-medium mb-5 mt-5">
           Замените каменные джунгли на парки, а пробки — на время с семьей.
         </h2>
       </div>

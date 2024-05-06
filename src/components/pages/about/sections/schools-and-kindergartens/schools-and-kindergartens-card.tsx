@@ -11,12 +11,12 @@ interface IProps {
 
 export const SchoolsAndKindergartensCard = (props: IProps) => {
   return (
-    <div className="w-full flex flex-row gap-5 items-stretch">
+    <div className="w-full flex flex-row gap-5 items-stretch h-full">
       <img className="w-1/2 object-cover" src={props.imageUrl} alt="Image" />
       <div
         className={cn(
           'flex flex-col w-1/2',
-          props.isCenter && 'h-full justify-center'
+          props.isCenter && 'h-full justify-center '
         )}
       >
         <div className="flex lg:flex-col flex-row items-center justify-center lg:justify-start lg:items-start gap-2">

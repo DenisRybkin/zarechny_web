@@ -6,7 +6,7 @@ export const Infrastructure = () => {
           Инфраструктура с заботой о вас
         </h1>
         <p className="md:text-2xl text-lg text-right font-inter text-brown-t">
-          Контроль за чистотой воздуха и воды
+          Уютный город с возможностями мегаполиса
         </p>
       </div>
       <div className="flex items-stretch lg:gap-x-5 gap-x-1 w-full">

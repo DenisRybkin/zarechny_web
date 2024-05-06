@@ -5,6 +5,7 @@ interface IProps {
   classNameText?: string;
   title: string;
   description: string;
+  isReverse?: boolean;
 }
 
 export const DevelopmentProspectsCard = (props: IProps) => {
@@ -12,7 +13,8 @@ export const DevelopmentProspectsCard = (props: IProps) => {
     <div
       className={cn(
         props.className,
-        'lg:pt-12 lg:pb-11 lg:px-6 flex flex-col lg:gap-5 gap-2 p-3'
+        'lg:pt-12 lg:pb-11 lg:px-6 flex flex-col lg:gap-5 gap-2 p-3',
+        props.isReverse && 'flex-col-reverse'
       )}
     >
       <h2

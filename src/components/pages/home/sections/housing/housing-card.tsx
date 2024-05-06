@@ -4,11 +4,17 @@ interface IProps {
   imageUrl: string;
   title: string;
   description: string;
+  isReverse?: boolean;
 }
 
 export const HousingCard = (props: IProps) => {
   return (
-    <div className="flex items-start gap-5">
+    <div
+      className={cn(
+        'flex items-start gap-5',
+        props.isReverse && 'flex-row-reverse'
+      )}
+    >
       <div className="w-[50%] h-full">
         <img className="object-cover h-full" src={props.imageUrl} alt="Image" />
       </div>

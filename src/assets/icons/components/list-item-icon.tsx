@@ -1,4 +1,8 @@
-export const ListItemIcon = () => {
+interface Props {
+  color?: string;
+}
+
+export const ListItemIcon = (props: Props) => {
   return (
     <svg
       width="20"
@@ -10,7 +14,7 @@ export const ListItemIcon = () => {
     >
       <path
         d="M1 10.5C5.97061 10.5 10 6.24675 10 1C10 6.24675 14.0294 10.5 19 10.5C14.0294 10.5 10 14.7533 10 20C10 14.7533 5.97061 10.5 1 10.5Z"
-        stroke="#DF8B0C"
+        stroke={props.color ?? '#DF8B0C'}
         strokeWidth="0.75"
         strokeMiterlimit="10"
         strokeLinecap="round"

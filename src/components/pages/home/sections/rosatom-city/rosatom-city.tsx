@@ -45,7 +45,7 @@ export const RosatomCity = () => {
             bgClassname="bg-litegray"
           />
           <RosatomCard
-            title="Гранты для важных дел"
+            title="Гранты для по-настоящему важных дел"
             description="Конкурсы для физических лиц, НКО, бюджетных организаций и бизнеса."
             imgUrl="/images/home/rosatom/6.jpg"
             bgClassname="bg-brown"

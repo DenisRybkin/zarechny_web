@@ -10,15 +10,10 @@ interface IProps {
 
 export const TalentDevelopmentCenterList = (props: IProps) => {
   return (
-    <div
-      className={cn(
-        'flex flex-col lg:gap-5 gap-3',
-        props.isReverse && 'justify-end'
-      )}
-    >
+    <div className={cn('flex flex-col', props.isReverse && 'justify-end')}>
       <h2
         className={cn(
-          'sm:text-2xl lg:text-2xl md:text-xl text-left font-semibold lg:mb-8 text-brown-t',
+          'sm:text-2xl lg:text-2xl md:text-xl text-left font-semibold lg:mb-5 text-brown-t',
           props.titleMt && 'mt-5'
         )}
       >

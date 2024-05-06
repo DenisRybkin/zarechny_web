@@ -17,7 +17,9 @@ export const OwnBusinessCard = (props: IProps) => {
       >
         {props.title}
       </h2>
-      <p className={cn('text-p', props.textClassName)}>{props.description}</p>
+      <p className={cn('xl lg:text-xl text-base', props.textClassName)}>
+        {props.description}
+      </p>
     </div>
   );
 };

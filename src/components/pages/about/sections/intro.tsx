@@ -7,8 +7,7 @@ export const Intro = () => {
           <span className="text-primary">есть время, чтобы жить</span>
         </h1>
         <h2 className="text-h2-m text-right font-medium lg:mb-5 mt-5 text-brown-t">
-          Бесплатные кружки и секции рядом с домом. Подарите ребенку безопасное
-          и яркое детство!
+          Проводите время с семьей, а не в дороге.
         </h2>
       </div>
       <img src="/images/about/1.jpg" alt="Image" />

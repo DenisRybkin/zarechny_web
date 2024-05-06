@@ -6,8 +6,8 @@ export const RosatomCareer = () => {
     <div className="flex flex-col px-5 lg:mb-44 mb-20">
       <div className="flex flex-col md:mb-16 mb-8 gap-5">
         <h1 className="flex leading-10 flex-wrap font-tenor text-primary text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl">
-          <span>Построй карьеру в &ensp;</span>
-          <span className="text-brown-t"> Росатоме</span>
+          <span>Построй карьеру в&nbsp;</span>
+          <span className="text-brown-t">Росатоме</span>
         </h1>
       </div>
       <div className="grid lg:grid-cols-3 grid-cols-2 gap-5 overflow-hidden">
