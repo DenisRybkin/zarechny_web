@@ -4,7 +4,7 @@
 
 #root {
   mein-height: 100vh;
-  font-family: "Inter", sans-serif;
+  font-family: "Inter";
 }
 
 .flag-dropdown {
@@ -88,11 +88,11 @@
 }
 
 .text-h2 {
-  @apply lg:text-2xl text-lg text-brown-t font-semibold
+  @apply lg:text-2xl text-lg font-medium text-brown-t
 }
 
 .text-h2-m {
-  @apply lg:text-2xl text-lg text-brown-t
+  @apply lg:text-2xl text-lg font-medium text-brown-t
 }
 
 .text-p {

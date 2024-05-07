@@ -21,7 +21,7 @@ export const SafeCityForm = (props: IProps) => {
     <div
       className={cn('flex flex-col justify-between h-full', props.className)}
     >
-      <h2 className="text-[#433D38] lg:text-3xl md:text-2xl">
+      <h2 className="text-h2 xl:!leading-9">
         Заречный — воплощённая мечта о жизни на частной территории со всеми
         преимуществами большого города.
       </h2>

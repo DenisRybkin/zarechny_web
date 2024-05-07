@@ -14,7 +14,7 @@ export const CloseNature = () => {
       </div>
       <div className="w-full flex lg:flex-row flex-col items-stretch lg:gap-5 gap-3">
         <div className="flex flex-col lg:gap-5 gap-3 lg:w-1/3 w-full">
-          <div className="flex flex-col bg-primary items-center lg:p-16 p-12 gap-3 h-[60%]">
+          <div className="flex flex-col bg-primary items-start lg:p-16 p-12 gap-3 h-[60%]">
             <div className="flex items-end h-min gap-1">
               <h1 className="lg:text-6xl text-5xl font-tenor text-white">
                 60 000
@@ -27,20 +27,20 @@ export const CloseNature = () => {
           </div>
           <div className="flex items-stretch lg:gap-5 gap-3 h-[40%]">
             <div className="flex flex-col justify-center bg-primary lg:px-6 px-1 lg:py-14 py-8 gap-3 w-1/2">
-              <div className="flex items-center justify-center h-min gap-1">
-                <p className="text-xl text-center text-white">70 000</p>
+              <div className="flex items-center justify-start h-min gap-1">
+                <p className="text-xl text-left text-white">70 000</p>
                 <span className="text-xl text-white">руб/м²</span>
               </div>
-              <h1 className="lg:text-4xl text-3xl  text-center font-tenor text-white">
+              <h1 className="lg:text-4xl text-3xl text-left font-tenor text-white">
                 Саратов
               </h1>
             </div>
             <div className="flex flex-col justify-center bg-secondary lg:px-6 px-1 lg:py-14 py-8 gap-3 w-1/2">
-              <div className="flex items-center justify-center h-min gap-1">
-                <p className="text-xl text-center  text-white">90 000</p>
+              <div className="flex items-center justify-start h-min gap-1">
+                <p className="text-xl text-left text-white">90 000</p>
                 <span className="text-xl text-white">руб/м²</span>
               </div>
-              <h1 className="text-4xl text-center font-tenor text-white">
+              <h1 className="text-4xl text-left font-tenor text-white">
                 Самара
               </h1>
             </div>

@@ -5,7 +5,7 @@ export const RosatomEnterprises = () => {
   return (
     <div className="flex flex-col px-5 lg:mb-44 mb-20">
       <div className="flex flex-col md:mb-16 mb-8 gap-5">
-        <h1 className="flex flex-wrap font-tenor text-brown-t text-left lg:text-6xl md:text-5xl sm:text-4xl mb-7">
+        <h1 className="flex flex-wrap font-tenor text-brown-t text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl mb-7">
           Предприятия&nbsp;
           <span className="text-primary">Росатома&nbsp;</span>
           ждут вас

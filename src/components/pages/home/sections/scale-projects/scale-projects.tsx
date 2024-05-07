@@ -8,7 +8,7 @@ export const ScaleProjects = () => {
         </h1>
       </div>
       <div className="flex lg:flex-row flex-col items-stretch w-full gap-5">
-        <div className="flex flex-col justify-between lg:w-1/3 lg:gap-24 gap-7">
+        <div className="flex flex-col justify-between lg:w-1/3 lg:gap-40 gap-7">
           <h3 className="text-brown-t lg:text-2xl text-xl">
             Работайте на предприятиях федерального значения
           </h3>

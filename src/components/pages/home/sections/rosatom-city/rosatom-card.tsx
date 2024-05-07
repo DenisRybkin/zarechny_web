@@ -29,8 +29,8 @@ export const RosatomCard = (props: IProps) => {
       >
         <h2
           className={cn(
-            'sm:text-2xl lg:text-xl xl:text-2xl text-lg font-semibold text-brown-t',
-            !props.bgClassname?.includes('litegray') && 'text-white'
+            'text-h2 ',
+            !props.bgClassname?.includes('litegray') && ' !text-white'
           )}
         >
           {props.title}

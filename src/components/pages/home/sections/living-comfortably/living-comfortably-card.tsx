@@ -17,10 +17,10 @@ export const LivingComfortablyCard = (props: IProps) => {
     >
       <h2
         className={cn(
-          'sm:text-2xl text-lg font-semibold',
+          'text-h2',
           props.bgClassName?.includes('bg-litegray')
             ? 'text-brown-t'
-            : 'text-white'
+            : '!text-white'
         )}
       >
         {props.title}

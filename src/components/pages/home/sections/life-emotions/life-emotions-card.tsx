@@ -9,7 +9,7 @@ interface IProps {
 
 export const LifeEmotionsCard = (props: IProps) => {
   return (
-    <div className="flex gap-5 ">
+    <div className="flex gap-5 w-1/2">
       <div className="flex-1">
         <img
           src={props.imageUrl}
@@ -23,12 +23,8 @@ export const LifeEmotionsCard = (props: IProps) => {
           props.reverse ? 'justify-end' : 'justify-start'
         )}
       >
-        <h2 className="sm:text-2xl text-xl font-semibold mb-5 text-brown-t">
-          {props.title}
-        </h2>
-        <p className="sm:text-lg lg:text-чд md:text-xl text-sm text-brown-t">
-          {props.description}
-        </p>
+        <h2 className="text-h2 mb-5">{props.title}</h2>
+        <p className="text-p">{props.description}</p>
       </div>
     </div>
   );

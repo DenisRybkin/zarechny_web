@@ -31,7 +31,7 @@ const DescriptionItem = (props: IDescriptionItemProps) => {
           <p className="lg:text-xl text-xs font-medium">{props.label[1]}</p>
         </>
       ) : (
-        <h2 className="text-white md:text-xl sm:text-lg text-sm">
+        <h2 className="text-white md:text-xl sm:text-lg text-sm font-medium">
           {props.label}
         </h2>
       )}

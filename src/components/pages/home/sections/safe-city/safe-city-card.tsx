@@ -13,8 +13,8 @@ export const SafeCityCard = (props: IProps) => {
     >
       <h2
         className={cn(
-          'sm:text-2xl md:text-2xl text-left font-semibold xl:mb-16 sm:mb-5',
-          props.bg?.includes('litegray') ? 'text-brown-t' : 'text-white'
+          'text-h2 text-left font-semibold xl:mb-16 sm:mb-5',
+          props.bg?.includes('litegray') ? 'text-brown-t' : '!text-white'
         )}
       >
         {props.title}

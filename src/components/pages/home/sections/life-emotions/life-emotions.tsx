@@ -20,7 +20,7 @@ export const LifeEmotions = () => {
             </div>
           </div>
           <div className="flex items-stretch sm:gap-5 gap-2">
-            <div className="md:py-10 md:px-14 sm:py-5 sm:px-7 py-3 px-4 w-1/2 bg-secondary">
+            <div className="md:py-8 md:px-10 sm:py-5 sm:px-7 py-3 px-4 w-1/2 bg-secondary">
               <h1 className="font-tenor text-white text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl mb-1">
                 25%
               </h1>
@@ -28,7 +28,7 @@ export const LifeEmotions = () => {
                 территории — парки и скверы
               </p>
             </div>
-            <div className="md:py-10 md:px-14 sm:py-5 sm:px-7 py-2 px-4 w-1/2 bg-primary">
+            <div className="md:py-8 md:px-10 sm:py-5 sm:px-7 py-2 px-4 w-1/2 bg-primary">
               <h1 className="font-tenor text-white text-left lg:text-6xl md:text-5xl sm:text-4xl text-4xl mb-1">
                 2
               </h1>

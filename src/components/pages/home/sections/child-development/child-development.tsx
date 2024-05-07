@@ -10,7 +10,7 @@ export const ChildDevelopment = () => {
         <h1 className="font-tenor text-right lg:text-6xl md:text-5xl sm:text-4xl text-4xl text-brown-t">
           детей и подростков
         </h1>
-        <h2 className="lg:text-2xl text-brown-t text-left font-medium mb-5 md:w-1/2 mt-5 text-xl">
+        <h2 className="text-h2 text-left mb-5 md:w-1/2 mt-5">
           Бесплатные кружки и секции рядом с домом. Подарите ребенку безопасное
           и яркое детство!
         </h2>
